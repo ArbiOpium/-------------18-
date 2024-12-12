@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// 1.
+// let age = prompt("Enter your age");
+// if(age <= 2)
+// {
+//     alert("Child");
+// }
+// else if(age > 12 && age < 18)
+// {
+//     alert("Teen");
+// }
+// else if(age > 18 && age < 60)
+// {
+//     alert("Adult");
+// }
+// else if(age > 60)
+// {
+//     alert("Pensiya");
+// }
+// 2.
+// let symbol = prompt("Enter number (0 - 9)")
+// if (number == 0) {
+//     alert(`)`);
+// }
+// else if (number == 1) {
+//     alert(`!`);
+// }
+// else if (number == 2) {
+//     alert(`@`);
+// }
+// else if (number == 3) {
+//     alert(`#`);
+// }
+// else if(number == 4){
+//     alert(`$`);
+// }
+// else if(number == 5){
+//     alert(`%`);
+// }
+// else if(number == 6){
+//     alert(`^`);
+// }
+// else if(number == 7){
+//     alert(`&`);
+// }
+// else if(number == 8){
+//     alert(`*`);
+// }
+// else if(number == 9){
+//     alert(`(`);
+// }
+// else{
+//     alert("Error");
+// }
+// 3.
+// let number = prompt("Enter a three-digit number:");
+// if (number.length === 3) {
+//     if (number[0] === number[1] || number[0] === number[2] || number[1] === number[2]) {
+//         console.log("The number has identical digits.");
+//     } else {
+//         console.log("The number does not have identical digits.");
+//     }
+// } else {
+//     console.log("Please enter a valid three-digit number.");
+// }
+// 4.
+// let year = prompt("Enter a year:");
+// if (year % 400 === 0 || year % 4 === 0 && year % 100 !== 0) {
+//     console.log("The year is a leap year.");
+// } else {
+//     console.log("The year is not a leap year.");
+// }
+// 5.
+// let number = prompt("Введите пятиразрядное число:");
+// if (number.length === 5 && !isNaN(number)) {
+//     if (number === number.split('').reverse().join('')) {
+//         alert("Число является палиндромом.");
+//     } else {
+//         alert("Число не является палиндромом.");
+//     }
+// } else {
+//     alert("Пожалуйста, введите корректное пятиразрядное число.");
+// }
+// 6.
+// let usdAmount = parseFloat(prompt("Enter the amount in USD:"));
+// let currency = prompt("Select the currency to convert to: EUR, UAN, or AZN:");
+// let rate;
+// if (currency === "EUR") {
+//     rate = 0.9; 
+// } else if (currency === "UAN") {
+//     rate = 40; 
+// } else if (currency === "AZN") {
+//     rate = 2; 
+// } else {
+//     console.log("Invalid currency selection.");
+// }
+
+// if (rate) {
+//     console.log(`Converted amount: ${usdAmount * rate}`);
+// }
+// 7.
+// let purchaseAmount = parseFloat(prompt("Enter the purchase amount:"));
+// let discount = 0;
+// if (purchaseAmount >= 200 && purchaseAmount < 300) {
+//     discount = 0.03;
+// } else if (purchaseAmount >= 300 && purchaseAmount < 500) {
+//     discount = 0.05;
+// } else if (purchaseAmount >= 500) {
+//     discount = 0.07;
+// }
+// let total = purchaseAmount * (1 - discount);
+// console.log(`Total amount to pay: ${total}`);
+// 8.
+// let circumference = parseFloat(prompt("Enter the circumference of the circle:"));
+// let squarePerimeter = parseFloat(prompt("Enter the perimeter of the square:"));
+// let circleDiameter = circumference / Math.PI;
+// let squareSide = squarePerimeter / 4;
+// if (circleDiameter <= squareSide) {
+//     console.log("The circle can fit inside the square.");
+// } else {
+//     console.log("The circle cannot fit inside the square.");
+// }
+// 9.
+// let score = 0;
+// let answer1 = prompt("Question 1: (answer 1, 2, or 3)");
+// if (answer1 === "1"){
+//     score += 2;
+// } 
+// let answer2 = prompt("Question 2: (answer 1, 2, or 3)");
+// if (answer2 === "2") {
+//     score += 2;
+// } 
+// let answer3 = prompt("Question 3: (answer 1, 2, or 3)");
+// if (answer3 === "3") {
+//     score += 2;
+// } 
+// console.log(`Your total score is: ${score} points.`);
+// 10.
+// let day = parseInt(prompt("Введите день:"));
+// let month = parseInt(prompt("Введите месяц:"));
+// let year = parseInt(prompt("Введите год:"));
+// function isLeapYear(year) {
+//     return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+// }
+// function daysInMonth(month, year) {
+//     switch (month) {
+//         case 4: case 6: case 9: case 11:
+//             return 30;
+//         case 2:
+//             return isLeapYear(year) ? 29 : 28;
+//         default:
+//             return 31;
+//     }
+// }
+// day++;
+// if (day > daysInMonth(month, year)) {
+//     day = 1;
+//     month++;
+//     if (month > 12) {
+//         month = 1;
+//         year++;
+//     }
+// }
+// alert(`Следующая дата: ${day}.${month}.${year}`);
+</script>
+</body>
+</html>
